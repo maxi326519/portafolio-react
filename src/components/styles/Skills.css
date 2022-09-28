@@ -1,0 +1,27 @@
+
+.skills{
+    padding: 20px;
+}
+
+.skills__container{
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    width: min-content;
+    gap: 50px;
+}
+
+.skills h2{
+    font-size: 40px;
+    margin:30px;
+}
+
+/* ICON: */
+.icon{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 15px;
+}
