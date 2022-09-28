@@ -20,8 +20,35 @@
 
 /* ICON: */
 .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     height: 200px;
-    background-color: red;
+    background-color: #046;
     border-radius: 15px;
+}
+
+.icon img{
+    text-align: center;
+    width: 70%;
+    height: 70%;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.icon:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
 }

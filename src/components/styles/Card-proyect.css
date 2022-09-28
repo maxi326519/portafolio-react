@@ -1,6 +1,4 @@
 .proyect-card{
-    background-color: green;
-
     display: flex;
     flex-direction: column;
 
@@ -12,13 +10,13 @@
 }
 
 .card__img{
-    background-color: red;
+    background-color: #333;
 
     flex-grow: 1;
 }
  
 .card__text{
-    background-color: blue;
+    background-color: #046;
 }
 
 .card__name{

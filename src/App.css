@@ -9,6 +9,11 @@
   margin-right: auto;
 }
 
+.svg{
+  width: 60%;
+  height: 60%;
+}
+
 .App {
   text-align: center;
   min-height: 100vh;

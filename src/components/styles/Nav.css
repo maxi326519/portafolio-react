@@ -1,3 +1,7 @@
+:root{
+    --size: 60px;
+}
+
 .nav-container{
     position: fixed;
     width: 100%;
@@ -10,13 +14,13 @@
 
 nav{
     display: flex;
-    height: 50px;
+    height: var(--size);
 }
 
 .nav-title{
     flex-grow: 1;
     text-align: left;
-    line-height: 50px;
+    line-height: var(--size);
     margin-left: 20px;
 }
 
@@ -24,6 +28,7 @@ nav{
     text-decoration: none;
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 .nav-link:hover{
