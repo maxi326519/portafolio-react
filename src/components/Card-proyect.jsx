@@ -4,16 +4,16 @@ import './styles/Card-proyect.scss'
 import link from '../assets/svg/link-solid.svg'
 import github from '../assets/svg/network/github.svg'
 
-export default function Card({name, content, img}){
+export default function Card({name, content, img, url, urlGitHub}){
     return (
         <div className='proyect-card width-container'>
             <div className='card__img'>
                 <img src={img} alt="proyect"/>
             </div>
-            <button>Mostrar mas</button>
+            <button>Show more</button>
             <div className="card__links">
-                <img src={link} alt="link"></img>
-                <img src={github} alt="link"></img>
+                <a rel="noreferrer" target="_blank" href={url}><img src={link} alt="link"></img></a>
+                <a rel="noreferrer" target="_blank" href={urlGitHub}><img src={github} alt="link"></img></a>
             </div>
             <div className='card__text'>
                 <h3 className='card__name'>{name}</h3>

@@ -8,11 +8,12 @@ $background: #101010;
     flex-direction: column;
 
     overflow: hidden;
-    width: 300px;
-    height: 300px;
+    max-width: 250px;
+    height: 250px;
     margin: 20px;
+    border: 1px solid $background;
     border-radius: 5px;
-    box-shadow: 0 0 10px 5px #0005;
+    transition: 0.5s;
 
     .card__img{
         height: 100%;
@@ -50,11 +51,19 @@ $background: #101010;
         right: 0;
         transition: 0.5s;
 
+        a{
+            &:hover{
+                img{
+                    filter: drop-shadow(0 0 2px white) invert(0%);
+                }
+            }
+        }
+
         img{
             width: 20px;
             height: 20px;
             margin: 10px;
-            filter: invert(100%);
+            filter: drop-shadow(0 0 2px white) invert(100%);
         }
     }
      
@@ -81,6 +90,10 @@ $background: #101010;
     }
 
     &:hover{
+        transform: scale(1.05);
+        box-shadow: 0 0 10px 5px #0005;
+        transition: 0.5s;
+
         .card__img{
             img{
                 filter: blur(2px);
@@ -100,7 +113,8 @@ $background: #101010;
     }
 
     @media screen and (max-width: 768px) {
-        width: 100%;
-        margin: 10px 0;
+        max-width: 300px;
+        height: 300px;
+        margin: 10px;
     }
 }

@@ -12,6 +12,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
 
     @media screen and (max-width: 768px) {
@@ -23,7 +24,6 @@
         }
 
         .proyects{
-            flex-direction: column;
             padding: 20px;
         }
     }

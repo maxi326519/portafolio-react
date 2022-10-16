@@ -14,6 +14,8 @@ export default function Proyects(){
                     name="Weather App"
                     content="Proyecto desarrollado durante el curso de henry"
                     img={img}
+                    url={'https://clima-app-a59af0.netlify.app/'}
+                    urlGitHub={'https://github.com/maxi326519/clima-app'}
                 />
                 <Card
                     name="Proyecto"
