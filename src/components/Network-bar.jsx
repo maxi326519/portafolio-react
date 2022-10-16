@@ -4,7 +4,7 @@ import Icon from './Network-icon.jsx'
 
 import LinkedIn from '../assets/svg/network/linkedin.svg'
 import GitHub from '../assets/svg/network/github.svg'
-import './styles/Network-bar.css'
+import './styles/Network-bar.scss'
 
 export default function Network(){
     return (

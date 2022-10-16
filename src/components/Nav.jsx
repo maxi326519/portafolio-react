@@ -1,15 +1,15 @@
 import React from 'react'
 
-import './styles/Nav.css'
+import './styles/Nav.scss'
 
 export default function Nav(){
     return (
         <div className='nav-container'>
             <nav className='width-container'>
-                <h1 className='nav-title'>PORTAFOLIO</h1>
-                <a className='nav-link' href='#proyectos'>Proyectos</a>
-                <a className='nav-link' href='#skills'>Habilidades</a>
-                <a className='nav-link' href='#contact'>Contacto</a>
+                <h1>PORTAFOLIO</h1>
+                <a href='#proyectos'>Proyectos</a>
+                <a href='#skills'>Habilidades</a>
+                <a href='#contact'>Contacto</a>
             </nav>
         </div>
     )
