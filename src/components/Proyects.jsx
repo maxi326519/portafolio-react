@@ -3,16 +3,43 @@ import React from 'react'
 import Card from './Card-proyect'
 
 import './styles/Proyects.scss'
+import img from '../assets/img/proyect1.png'
 
 export default function Proyects(){
     return (
         <div className='proyects-container'>
             <h2>Proyectos</h2>
             <div className='proyects width-container'>
-                <Card name="Proyecto" content="Proyecto desarrollado durante el curso de henry"/>
-                <Card name="Proyecto"/>
-                <Card name="Proyecto"/>
-                <a>More proyects</a>
+                <Card 
+                    name="Weather App"
+                    content="Proyecto desarrollado durante el curso de henry"
+                    img={img}
+                />
+                <Card
+                    name="Proyecto"
+                    content=""
+                    img={img}
+                />
+                <Card
+                    name="Proyecto"
+                    content=""
+                    img={img}
+                />
+                <Card 
+                    name="Weather App"
+                    content="Proyecto desarrollado durante el curso de henry"
+                    img={img}
+                />
+                <Card
+                    name="Proyecto"
+                    content=""
+                    img={img}
+                />
+                <Card
+                    name="Proyecto"
+                    content=""
+                    img={img}
+                />
             </div>
         </div>
     )

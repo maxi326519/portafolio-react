@@ -17,7 +17,7 @@ export default function Home(){
             </div>
             <div className='home-img'>
                 <div className='home-img__container'>
-                    <img src={img}/>
+                    <img src={img} alt="perfil"/>
                 </div>
             </div>
         </div>
