@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './styles/Card-proyect.css'
+import './styles/Card-proyect.scss'
 
 export default function Card({name, content}){
     return (

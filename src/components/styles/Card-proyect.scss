@@ -1,0 +1,40 @@
+.proyect-card{
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 15px;
+
+    .card__img{
+        background-color: #333;
+    
+        flex-grow: 1;
+    }
+     
+    .card__text{
+        background-color: #046;
+
+        .card__name{
+            line-height: 40px;
+        }
+        
+        .card__description{
+            overflow: hidden;
+            height: 0px;
+            transition: 0.5s;
+        }
+    }
+
+    .proyect-card:hover .card__description{
+        height: 100px;
+        transition: 0.5s;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
