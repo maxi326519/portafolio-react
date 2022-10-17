@@ -12,35 +12,45 @@ export default function Proyects(){
             <div className='proyects width-container'>
                 <Card 
                     name="Weather App"
-                    content="Proyecto desarrollado durante el curso de henry"
+                    content="Proyecto desarrollado durante el curso de henry, utilizando una api, tambien React y Redux"
                     img={img}
                     url={'https://clima-app-a59af0.netlify.app/'}
                     urlGitHub={'https://github.com/maxi326519/clima-app'}
                 />
-                <Card
-                    name="Proyecto"
-                    content=""
+                <Card 
+                    name="Weather App"
+                    content="Proyecto desarrollado durante el curso de henry, utilizando una api, tambien React y Redux"
                     img={img}
-                />
-                <Card
-                    name="Proyecto"
-                    content=""
-                    img={img}
+                    url={'https://clima-app-a59af0.netlify.app/'}
+                    urlGitHub={'https://github.com/maxi326519/clima-app'}
                 />
                 <Card 
                     name="Weather App"
-                    content="Proyecto desarrollado durante el curso de henry"
+                    content="Proyecto desarrollado durante el curso de henry, utilizando una api, tambien React y Redux"
                     img={img}
+                    url={'https://clima-app-a59af0.netlify.app/'}
+                    urlGitHub={'https://github.com/maxi326519/clima-app'}
                 />
-                <Card
-                    name="Proyecto"
-                    content=""
+                <Card 
+                    name="Weather App"
+                    content="Proyecto desarrollado durante el curso de henry, utilizando una api, tambien React y Redux"
                     img={img}
+                    url={'https://clima-app-a59af0.netlify.app/'}
+                    urlGitHub={'https://github.com/maxi326519/clima-app'}
                 />
-                <Card
-                    name="Proyecto"
-                    content=""
+                <Card 
+                    name="Weather App"
+                    content="Proyecto desarrollado durante el curso de henry, utilizando una api, tambien React y Redux"
                     img={img}
+                    url={'https://clima-app-a59af0.netlify.app/'}
+                    urlGitHub={'https://github.com/maxi326519/clima-app'}
+                />
+                <Card 
+                    name="Weather App"
+                    content="Proyecto desarrollado durante el curso de henry, utilizando una api, tambien React y Redux"
+                    img={img}
+                    url={'https://clima-app-a59af0.netlify.app/'}
+                    urlGitHub={'https://github.com/maxi326519/clima-app'}
                 />
             </div>
         </div>

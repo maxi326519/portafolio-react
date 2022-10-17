@@ -10,7 +10,6 @@ export default function Card({name, content, img, url, urlGitHub}){
             <div className='card__img'>
                 <img src={img} alt="proyect"/>
             </div>
-            <button>Show more</button>
             <div className="card__links">
                 <a rel="noreferrer" target="_blank" href={url}><img src={link} alt="link"></img></a>
                 <a rel="noreferrer" target="_blank" href={urlGitHub}><img src={github} alt="link"></img></a>
@@ -18,6 +17,7 @@ export default function Card({name, content, img, url, urlGitHub}){
             <div className='card__text'>
                 <h3 className='card__name'>{name}</h3>
                 <p className='card__description'>{content}</p>
+                <a className='card__btn-more'>Read more</a>
             </div>
         </div>
     )

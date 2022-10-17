@@ -8,16 +8,15 @@ $background: #101010;
     flex-direction: column;
 
     overflow: hidden;
-    max-width: 250px;
-    height: 250px;
+    max-width: 300px;
+    height: 300px;
     margin: 20px;
-    border: 1px solid $background;
-    border-radius: 5px;
+    border: 1px solid #222;
     transition: 0.5s;
 
     .card__img{
         height: 100%;
-        background-color: #555;
+        background-color: inherit;
 
         img{
             width: 100%;
@@ -32,8 +31,8 @@ $background: #101010;
         margin-right: auto;
         opacity: 100;
         background-color: transparent;
-        color: $secundary-color;
-        border: 1px solid $secundary-color;
+        color: $primary-color;
+        border: 1px solid $primary-color;
 
         transition: 0.5s;
 
@@ -46,9 +45,10 @@ $background: #101010;
 
     .card__links{
         display: flex;
-        position: absolute;
-        top: -50px;
-        right: 0;
+        position: relative;
+        top: 0;
+        margin-left: auto;
+        margin-right: auto;
         transition: 0.5s;
 
         a{
@@ -60,9 +60,9 @@ $background: #101010;
         }
 
         img{
-            width: 20px;
-            height: 20px;
-            margin: 10px;
+            width: 40px;
+            height: 40px;
+            margin: 20px;
             filter: drop-shadow(0 0 2px white) invert(100%);
         }
     }
@@ -70,28 +70,81 @@ $background: #101010;
     .card__text{
         position: absolute;
         bottom: 0;
-        height: 50%;
         width: 100%;
-        background-color: #666;
+        height: 45%;
+        background-color: #444;
         color: white;
-        border-radius: 20px 20px 0 0;
-        box-shadow: 0 0 10px 5px #0005;
+        outline: 1px solid #222;
 
         transition: 0.5s;
 
         .card__name{
-            line-height: 40px;
+            line-height: 30px;
+            padding-top: 10px;
         }
 
         .card__description{
-            margin: 10px;
+            margin: 10px 30px;
+            color: #ccc;
             font-size: 13px;
+        }
+
+        .card__btn-more{
+            position: relative;
+            z-index: 100;
+            font-size: 12px;
+            padding: 5px 10px;
+            color: $primary-color;
+
+            &:after{
+                content: "";
+                position: absolute;
+                top: -1px;
+                left: -1px;
+                width: 0;
+                height: 0;
+                opacity: 0;
+                border-left: 1px solid $primary-color;
+                border-top: 1px solid $primary-color;
+                transition: 0.5s;
+            }
+
+            &:before{
+                content: "";
+                position: absolute;
+                bottom: -1px;
+                right: -1px;
+                width: 0;
+                height: 0;
+                opacity: 0;
+                border-right: 1px solid $primary-color;
+                border-bottom: 1px solid $primary-color;
+                transition: 0.5s;
+            }
+
+            &:hover{
+
+                &:after{
+                    width: 100%;
+                    height: 100%;
+                    opacity: 100%;
+                    transition: 0.5s;
+                }
+
+                &:before{
+                    width: 100%;
+                    height: 100%;
+                    opacity: 100%;
+                    transition: 0.5s;
+                }
+            }
         }
     }
 
     &:hover{
         transform: scale(1.05);
-        box-shadow: 0 0 10px 5px #0005;
+        box-shadow: 10px 10px 5px 5px #0005;
+        border: 1px solid $primary-color;
         transition: 0.5s;
 
         .card__img{
@@ -99,22 +152,14 @@ $background: #101010;
                 filter: blur(2px);
             }
         }
-    }
 
-    &:hover button{
-        opacity: 100%;
-        bottom: 65%;
-        transition: 0.5s;
-    }
-
-    &:hover .card__links{
-        top: 0;
-        transition: 0.5s;
+        .card__links{
+            top: -55%;
+            transition: 0.5s;
+        }
     }
 
     @media screen and (max-width: 768px) {
-        max-width: 300px;
-        height: 300px;
         margin: 10px;
     }
 }
