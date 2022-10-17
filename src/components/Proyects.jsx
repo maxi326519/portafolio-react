@@ -7,8 +7,8 @@ import img from '../assets/img/proyect1.png'
 
 export default function Proyects(){
     return (
-        <div className='proyects-container'>
-            <h2>Proyectos</h2>
+        <div id='proyects-container'>
+            <h2>Proyects</h2>
             <div className='proyects width-container'>
                 <Card 
                     name="Weather App"

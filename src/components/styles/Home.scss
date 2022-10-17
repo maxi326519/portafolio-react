@@ -2,7 +2,7 @@ $primary-color: #00ffff;
 $secundary-color: #ff6600;
 $background: #101010;
 
-.home{
+#home{
     display: flex;
     height: 100vh;
     padding: 10px;
@@ -113,8 +113,8 @@ $background: #101010;
         .home-img__container{
             background-color:  green;
             position: relative;
-            width: 35vw;
-            height: 35vw;
+            width: 30vw;
+            height: 30vw;
             border-radius: 50%;
             overflow: hidden;
 

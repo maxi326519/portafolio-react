@@ -1,11 +1,13 @@
 import React from 'react'
 
+import Links from './Links'
+
 import './styles/Home.scss'
 import img from '../assets/img/Perfil.jpg'
 
 export default function Home(){
     return (
-        <div className='home width-container'>
+        <div className='width-container' id='home'>
             <div className='home-text'>
                 <div className='home-text__container'>
                     <h2><b>Hello World!</b></h2>
@@ -13,6 +15,7 @@ export default function Home(){
                     <p><b>Full Stack Developer</b></p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam esse placeat deleniti, eum, culpa at sed harum sit dolorum saepe adipisci officiis aliquam voluptates atque fugit blanditiis ipsam architecto molestiae!</p>
                     <button>CONTACTAME</button>
+                    <Links/>
                 </div>
             </div>
             <div className='home-img'>
