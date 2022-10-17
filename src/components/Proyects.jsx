@@ -12,42 +12,42 @@ export default function Proyects(){
             <div className='proyects width-container'>
                 <Card 
                     name="Weather App"
-                    content="Proyecto desarrollado durante el curso de henry, utilizando una api, tambien React y Redux"
+                    content="This project was developed at Henry's Bootcamp with React and Redux. The public weather api was used "
                     img={img}
                     url={'https://clima-app-a59af0.netlify.app/'}
                     urlGitHub={'https://github.com/maxi326519/clima-app'}
                 />
                 <Card 
                     name="Weather App"
-                    content="Proyecto desarrollado durante el curso de henry, utilizando una api, tambien React y Redux"
+                    content="This project was developed at Henry's Bootcamp with React and Redux. The public weather api was used "
                     img={img}
                     url={'https://clima-app-a59af0.netlify.app/'}
                     urlGitHub={'https://github.com/maxi326519/clima-app'}
                 />
                 <Card 
                     name="Weather App"
-                    content="Proyecto desarrollado durante el curso de henry, utilizando una api, tambien React y Redux"
+                    content="This project was developed at Henry's Bootcamp with React and Redux. The public weather api was used "
                     img={img}
                     url={'https://clima-app-a59af0.netlify.app/'}
                     urlGitHub={'https://github.com/maxi326519/clima-app'}
                 />
                 <Card 
                     name="Weather App"
-                    content="Proyecto desarrollado durante el curso de henry, utilizando una api, tambien React y Redux"
+                    content="This project was developed at Henry's Bootcamp with React and Redux. The public weather api was used "
                     img={img}
                     url={'https://clima-app-a59af0.netlify.app/'}
                     urlGitHub={'https://github.com/maxi326519/clima-app'}
                 />
                 <Card 
                     name="Weather App"
-                    content="Proyecto desarrollado durante el curso de henry, utilizando una api, tambien React y Redux"
+                    content="This project was developed at Henry's Bootcamp with React and Redux. The public weather api was used "
                     img={img}
                     url={'https://clima-app-a59af0.netlify.app/'}
                     urlGitHub={'https://github.com/maxi326519/clima-app'}
                 />
                 <Card 
                     name="Weather App"
-                    content="Proyecto desarrollado durante el curso de henry, utilizando una api, tambien React y Redux"
+                    content="This project was developed at Henry's Bootcamp with React and Redux. The public weather api was used "
                     img={img}
                     url={'https://clima-app-a59af0.netlify.app/'}
                     urlGitHub={'https://github.com/maxi326519/clima-app'}
