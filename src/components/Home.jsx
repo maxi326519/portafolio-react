@@ -14,7 +14,7 @@ export default function Home(){
                     <p><b>I'm Maximiliano Garcia</b></p>
                     <p><b>Full Stack Developer</b></p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam esse placeat deleniti, eum, culpa at sed harum sit dolorum saepe adipisci officiis aliquam voluptates atque fugit blanditiis ipsam architecto molestiae!</p>
-                    <button>CONTACTAME</button>
+                    <a className="home-btn-contact" href='#contact'>CONTACT ME </a>
                     <Links/>
                 </div>
             </div>

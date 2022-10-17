@@ -41,13 +41,15 @@ $background: #101010;
                 color: #aaa;
             }
     
-            button{
+            .home-btn-contact{
+                display: inline-block;
                 position: relative;
                 z-index: 100;
                 font-size: 15px;
                 padding: 10px 20px;
                 margin-top: 10px;
                 overflow: hidden;
+                text-decoration: none;
                 border: 1px solid $primary-color;
                 color: $primary-color;
                 background-color: transparent;
@@ -62,7 +64,6 @@ $background: #101010;
                 &:before{
                     content: "";
                     position: absolute;
-                    z-index: 50;
                     top: 0;
                     left: -140%;
                     width: 140%;
@@ -76,12 +77,11 @@ $background: #101010;
                 }
 
                 &:after{
-                    content: "CONTACTAME";
+                    content: "CONTACT ME";
                     position: absolute;
-                    z-index: 60;
                     top: 0;
                     left: 0;
-                    padding: 10px 20px;
+                    padding: 10px 18px;
                     opacity: 0%;
                     color: $background;
                     font-weight: bold;
@@ -115,6 +115,8 @@ $background: #101010;
             position: relative;
             width: 30vw;
             height: 30vw;
+            max-width: 500px;
+            max-height: 500px;
             border-radius: 50%;
             overflow: hidden;
 
@@ -161,7 +163,7 @@ $background: #101010;
                     padding: 10px;
                 }
         
-                button{
+                .home-btn-contact{
                     margin-top: 10px;
                     font-size: 12px;
                 }
