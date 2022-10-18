@@ -15,7 +15,7 @@ function App() {
       <Network/>
       <Home/>
       <Proyects/>
-{/*       <Skills/> */}
+      <Skills/>
       <Contact/>
     </div>
   );

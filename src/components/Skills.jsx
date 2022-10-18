@@ -2,7 +2,7 @@ import React from 'react'
 
 import Icon from './Icon'
 
-import './styles/Skills.css'
+import './styles/Skills.scss'
 import LogoHtml from '../assets/svg/html.svg'
 import LogoCss from '../assets/svg/css.svg'
 import LogoJS from '../assets/svg/javascript.svg'
