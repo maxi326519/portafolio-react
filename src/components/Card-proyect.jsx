@@ -17,7 +17,7 @@ export default function Card({name, content, img, url, urlGitHub}){
             <div className='card__text'>
                 <h3 className='card__name'>{name}</h3>
                 <p className='card__description'>{content}</p>
-                <a className='card__btn-more'>Read more</a>
+{/*                 <a className='card__btn-more'>Read more</a> */}
             </div>
         </div>
     )
