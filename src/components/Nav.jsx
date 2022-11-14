@@ -13,7 +13,7 @@ export default function Nav(){
                     <li><a href='#home'>Home</a></li>
                     <li><a href='#proyects-container'>Proyects</a></li>
                     <li><a href='#skills'>Skills</a></li>
-                    <li><a href='#contact'>Contact</a></li>
+{/*                     <li><a href='#contact'>Contact</a></li> */}
                     <li className='nav-arrow'><img src={arrow} alt='arrow'/></li>
                 </ul>
             </nav>
