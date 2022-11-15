@@ -7,10 +7,6 @@ $background: #101010;
     position: relative;
     margin-top: 10px;
 
-    animation-name: links;
-    animation-duration: 2s;
-    animation-fill-mode: forwards; 
-
     a{
         width: 30px;
         height: 30px;
@@ -40,17 +36,5 @@ $background: #101010;
             width: 25px;
             height: 25px;
         }
-    }
-}
-
-@keyframes links{
-    0% {
-        top: 50px;
-        opacity: 0;
-    }
-
-    100% {
-        top: 0;
-        opacity: 100%;
     }
 }

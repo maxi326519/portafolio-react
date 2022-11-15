@@ -1,6 +1,8 @@
+@use './var.scss';
+
 #proyects-container{
-    background-color: #333;
-    padding: 10px;
+    background-color: var.$secundary-color;
+    padding: 100px 10px;
 
     h2{
         font-size: 40px;

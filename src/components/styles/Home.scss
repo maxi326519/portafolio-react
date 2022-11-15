@@ -1,30 +1,74 @@
-$primary-color: #00ffff;
-$secundary-color: #ff6600;
-$background: #101010;
+@use './var.scss';
 
 #home {
   display: flex;
   height: 100vh;
-  padding: 10px;
+  padding: 0 50px;
+  overflow: hidden;
+
+  .wave, .wave2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .wave{
+    z-index: 20;
+    height: 250px;
+    fill: var.$secundary-color;
+  }
+
+  .wave2{
+    z-index: 10;
+    opacity: 80%;
+    height: 300px;
+    fill: #ffffff25;
+  }
+
+  .arrow-dowm{
+    position: absolute;
+    z-index: 100;
+    bottom: 100px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    fill: var.$primary-color;
+    filter: drop-shadow(0px 5px 5px black);
+    overflow:visible;
+
+    path{
+
+      animation: 0.5s ease-in infinite alternate arrow;
+
+      @keyframes arrow{
+        0% {
+          transform: translateY(0px) scaleY(1);
+        }
+        80% {
+          transform: translateY(200px) scaleY(1);
+        }
+        100% {
+          transform: translateY(300px) scaleY(0.8);
+        }
+      }
+    }
+  }
 
   .home-text {
     display: flex;
+    position: relative;
+    z-index: 100;
     flex-grow: 1;
 
     align-items: center;
     justify-content: center;
     text-align: left;
-    padding-left: 100px;
 
     .home-text__container {
-      position: relative;
-      left: -30px;
-      -webkit-animation: 2s ease both text;
-      animation: 2s ease both text;
-
       h2 {
-        color: $primary-color;
-        font-size: 50px;
+        color: var.$primary-color;
+        font-size: 60px;
 
         b {
           border-right: 4px solid white;
@@ -43,38 +87,29 @@ $background: #101010;
       }
 
       p:nth-child(2) {
-        font-size: 50px;
+        font-size: 60px;
       }
 
       p:nth-child(3) {
-        font-size: 30px;
-        color: $secundary-color;
-      }
-
-      p:nth-child(4) {
-        font-family: "Open Sans", sans-serif;
-        font-size: 15px;
-        max-width: 400px;
-        color: #aaa;
+        font-size: 35px;
+        color: var.$secundary-color;
       }
 
       .home-btn-contact {
         display: inline-block;
         position: relative;
-        z-index: 100;
-        font-size: 15px;
+        font-size: 20px;
+        margin-top: 50px;
         padding: 10px 20px;
-        margin-top: 10px;
         overflow: hidden;
         text-decoration: none;
-        border: 1px solid $primary-color;
-        color: $primary-color;
+        border: 1px solid var.$primary-color;
+        color: var.$primary-color;
         background-color: transparent;
-
         transition: 0.5s;
 
         &:hover {
-          color: $background;
+          color: var.$background;
           transition: 0.5s;
         }
 
@@ -87,10 +122,9 @@ $background: #101010;
           height: 100%;
           border-radius: 0 0 80px 0;
           text-align: center;
-          background-color: $primary-color;
-          color: $background;
+          background-color: var.$primary-color;
+          color: var.$background;
           transition: 0.5s;
-          font-weight: bold;
         }
 
         &:after {
@@ -100,7 +134,7 @@ $background: #101010;
           left: 0;
           padding: 10px 18px;
           opacity: 0%;
-          color: $background;
+          color: var.$background;
           font-weight: bold;
           transition: 0.5s;
         }
@@ -121,17 +155,18 @@ $background: #101010;
   .home-img {
     display: flex;
     flex-grow: 1;
-
     justify-content: center;
     align-items: center;
-    padding: 60px;
 
     .home-img__transform {
-      width: 25vw;
-      height: 25vw;
-      padding: 30px;
-      background-color: $primary-color;
-      animation: 50s linear infinite imgBack;
+      width: 30vw;
+      height: 30vw;
+      max-width: 500px;
+      max-height: 500px;
+      margin-left: 100px;
+      overflow: hidden;
+      background: linear-gradient(135deg, var.$primary-color, var.$secundary-color );
+      animation: 30s ease infinite imgBack;
 
       @keyframes imgBack {
         0% {
@@ -141,7 +176,7 @@ $background: #101010;
           border-radius: 34% 66% 58% 42% / 35% 54% 46% 65% ;
         }
         50% {
-          border-radius: 50% 50% 58% 42% / 70% 48% 52% 30% ;
+          border-radius: 50% 50% 58% 42% / 70% 48% 52% 30%;
         }
         75% {
           border-radius: 54% 46% 25% 75% / 49% 75% 25% 51%;
@@ -153,15 +188,21 @@ $background: #101010;
     }
 
     .home-img__container {
-      background-color: grey;
       position: relative;
-      max-width: 500px;
-      max-height: 500px;
-      border-radius: 50%;
       overflow: hidden;
 
       img {
         width: 100%;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1400px){
+    .home-text{
+      .home-text__container { 
+        h2, p:nth-child(2) {font-size: 50px;}
+        p:nth-child(3) {font-size: 30px;}
+      .home-btn-contact {font-size: 15px;}
       }
     }
   }

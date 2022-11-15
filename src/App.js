@@ -2,7 +2,6 @@ import './App.css';
 
 // Componentes
 import Nav from './components/Nav'
-import Network from './components/Network-bar'
 import Home from './components/Home'
 import Proyects from './components/Proyects'
 import Skills from './components/Skills'
@@ -12,7 +11,6 @@ function App() {
   return (
     <div className="App">
       <Nav/>
-      <Network/>
       <Home/>
       <Proyects/>
       <Skills/>
