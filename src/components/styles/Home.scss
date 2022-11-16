@@ -36,7 +36,6 @@
     overflow:visible;
 
     path{
-
       animation: 0.5s ease-in infinite alternate arrow;
 
       @keyframes arrow{
@@ -272,11 +271,19 @@
         margin-left: 0;
       }
     }
-  }
+    
+    .home-text{
+      margin-bottom: 50px;
+    }
 
-  .wave, .wave2{
-    left: -50vw;
-    width: 200vw;
-    height: 150px;
+    .arrow-dowm{
+      bottom: 20vw;
+    }
+
+    .wave, .wave2{
+      left: -50vw;
+      width: 200vw;
+      height: 200px;
+    }
   }
 }

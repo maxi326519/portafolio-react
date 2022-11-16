@@ -9,8 +9,8 @@ export default function Nav(){
         <div className='nav-container'>
             <nav className='width-container'>
                 <ul>
-                    <li className='nav-icon'><img src={bars} alt='bars'/></li>
-                    <li><a href='#home'>Home</a></li>
+{/*                     <li className='nav-icon'><img src={bars} alt='bars'/></li>
+ */}                    <li><a href='#home'>Home</a></li>
                     <li><a href='#proyects-container'>Proyects</a></li>
                     <li><a href='#skills'>Skills</a></li>
 {/*                     <li><a href='#contact'>Contact</a></li> */}

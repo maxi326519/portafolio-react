@@ -37,6 +37,7 @@
     }
 
     @media screen and (max-width: 768px) {
+        padding: 10px 10px 50px 10px;
 
         h2{
             font-size: 30px;
@@ -44,8 +45,16 @@
             margin-top: 20px;
         }
 
-        .proyects{
-            padding: 20px;
+        .wave{
+            left: -50vw;
+            width: 200vw;
+            height: 100px;
+          }
+    }
+
+    @media screen and (max-width: 500px) {
+        .proyect{
+            flex-wrap: nowrap;
         }
     }
 }
