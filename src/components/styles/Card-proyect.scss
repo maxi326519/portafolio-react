@@ -11,7 +11,7 @@ $background: #101010;
     max-width: 300px;
     height: 300px;
     margin: 20px;
-    border: 1px solid #222;
+    border-radius: 20px;
     transition: 0.5s;
 
     .card__img{
@@ -144,7 +144,6 @@ $background: #101010;
     &:hover{
         transform: scale(1.05);
         box-shadow: 10px 10px 5px 5px #0005;
-        border: 1px solid $primary-color;
         transition: 0.5s;
 
         .card__img{

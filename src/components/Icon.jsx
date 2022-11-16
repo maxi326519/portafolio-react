@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Tecnology({svg}){
+export default function Tecnology({ className, svg}){
     return (
-        <div className='icon'>
-            <img className='svg' src={svg}/>
+        <div className={`icon ${className}`}>
+            <img className='svg' src={svg} alt='icon-img'/>
         </div>
     )
 }
