@@ -125,7 +125,7 @@
         max-height: 500px;
         overflow: hidden;
         background: linear-gradient(135deg, var.$primary-color, var.$secundary-color );
-        animation: 30s ease infinite imgBack;
+        animation: 20s ease infinite imgBack;
   
         @keyframes imgBack {
           0% {
@@ -210,8 +210,6 @@
   @media screen and (max-width: 1400px){
 
     .home-container{
-      flex-direction: column-reverse;
-
       .home-text{
         .home-text__container { 
           h2, p:nth-child(2) {font-size: 40px;}
@@ -243,6 +241,7 @@
     padding: 0;
 
     .home-container{
+      flex-direction: column-reverse;
       justify-content: center;
       padding: 0;
 
