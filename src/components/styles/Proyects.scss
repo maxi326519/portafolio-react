@@ -3,7 +3,7 @@
 #proyects-container{
     position: relative;
     background-color: var.$secundary-color;
-    padding: 100px 10px 150px 10px;
+    padding: 50px 10px 150px 10px;
 
     .wave, .wave2{
         position: absolute;
@@ -26,6 +26,14 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+    }
+
+    @media screen and (max-width: 1400px) {
+        padding: 20px 10px 150px 10px;
+
+        .wave, .wave2{
+            height: 150px;
+        }
     }
 
     @media screen and (max-width: 768px) {

@@ -30,7 +30,7 @@ $background: #101010;
                 text-decoration: none;
                 color: white;
                 font-size: 15px;
-                margin: 0 20px;
+                padding: 0 20px;
                 transition: 0.1s;
 
                 animation-name: menu;
@@ -62,14 +62,24 @@ $background: #101010;
                 &:hover{
                     color: $primary-color;
                     &:before{
-                    left: -20px;
-                    width: calc(100% + 40px);
+                    left: 0;
+                    width: 100%;
                     transition: 0.2s;
                     }
                 }
             }
         }
+    }
 
+    @media screen and (max-width: 1400px) {
+        height: 40px;
+        ul{
+            li a{
+                padding: 0 15px;
+                height: 40px;
+                font-size: 13px;
+            }
+        }
     }
 
     @media screen and (max-width: 768px) {
