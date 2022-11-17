@@ -1,0 +1,18 @@
+@use './var.scss';
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #222;
+
+    p{
+        margin-top: 20px; 
+    }
+    
+    b{
+        color: var.$secundary-color;
+    }
+}
