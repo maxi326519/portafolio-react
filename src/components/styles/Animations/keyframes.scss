@@ -1,0 +1,67 @@
+$percent: 10%;
+
+@keyframes arrow {
+  0% {
+    top: 50px;
+    transform: scaleY(1.5);
+  }
+
+  30% {
+    transform: scaleY(1.5);
+    top: 0;
+  }
+
+  70% {
+    transform: scaleY(0.5);
+  }
+
+  100% {
+    top: 0;
+    transform: scaleY(1);
+  }
+}
+
+@keyframes toTop {
+  0% {
+    top: $percent;
+    opacity: 0;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes toBottom {
+  0% {
+    bottom: $percent;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes toRight {
+  0% {
+    right: $percent;
+    opacity: 0;
+  }
+  100% {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes toLeft {
+  0% {
+    left: $percent;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}

@@ -49,7 +49,7 @@ export default function Home() {
     <div id="home">
       <div className="home-container">
         <div className="home-text">
-          <div className="home-text__container">
+          <div className="home-text__container right">
             <h2>
               <b>{text.animation}</b>
             </h2>
@@ -65,7 +65,7 @@ export default function Home() {
             <Links />
           </div>
         </div>
-        <div className="home-img">
+        <div className="home-img left">
           <div className="home-img__transform">
             <div className="home-img__container">
               <img src={img} alt="perfil" />

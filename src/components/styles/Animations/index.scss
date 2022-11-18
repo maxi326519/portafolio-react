@@ -1,0 +1,22 @@
+@use './keyframes.scss';
+$time: 1s;
+
+.top{
+    position: relative;
+    animation: $time ease toTop;
+}
+
+.bottom{
+    position: relative;
+    animation: $time ease toBottom;
+}
+
+.right{
+    position: relative;
+    animation: $time toRight;
+}
+
+.left{
+    position: relative;
+    animation: $time toLeft;
+}
