@@ -12,15 +12,15 @@ import LogoReact from '../assets/svg/react.svg'
 
 export default function Skills(){
     return(
-        <div className='width-container' id='skills'>
+        <div id='skills'>
             <h2>Skills</h2>
-            <div className='skills__container'>
-                <Icon svg={LogoJS}/>
-                <Icon svg={LogoCss}/>
-                <Icon svg={LogoHtml}/>
-                <Icon svg={LogoNodeJS}/>
-                <Icon svg={LogoSass}/>
-                <Icon svg={LogoReact}/>
+            <div className='skills__container width-container'>
+                <Icon className={'icon-js'} svg={LogoJS}/>
+                <Icon className={'icon-css'} svg={LogoCss}/>
+                <Icon className={'icon-html'} svg={LogoHtml}/>
+                <Icon className={'icon-node'} svg={LogoNodeJS}/>
+                <Icon className={'icon-sass'} svg={LogoSass}/>
+                <Icon className={'icon-react'} svg={LogoReact}/>
             </div>
         </div>
     )

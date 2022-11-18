@@ -4,15 +4,10 @@
 }
 
 .width-container{
-  max-width: 1300px;
+  max-width: 1400px;
   min-width: 310px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.svg{
-  width: 60%;
-  height: 60%;
 }
 
 .App {
