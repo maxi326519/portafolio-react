@@ -3,7 +3,7 @@ import './App.css';
 // Componentes
 import Nav from './components/Nav/Nav';
 import Home from './components/Home/Home';
-import About from './components/About/About';
+/* import About from './components/About/About'; */
 import Proyects from './components/Proyects/Proyects';
 import Skills from './components/Skills/Skills';
 /* import Contact from './components/Contact' */
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Nav/>
       <Home/>
-      <About/>
+{/*       <About/> */}
       <Proyects/>
       <Skills/>
 {/*       <Contact/> */}
