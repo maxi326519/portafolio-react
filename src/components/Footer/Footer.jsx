@@ -1,7 +1,7 @@
 import React from "react";
-import Links from "./Links";
+import Links from "../Links/Links";
 
-import "./styles/Footer.scss";
+import "./Footer.scss";
 
 export default function Proyects() {
   return (

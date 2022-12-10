@@ -1,8 +1,8 @@
 import React from 'react'
 
-import './styles/Card-proyect.scss'
-import link from '../assets/svg/link-solid.svg'
-import github from '../assets/svg/network/github.svg'
+import './ProyectCard.scss'
+import link from '../../../assets/svg/link-solid.svg'
+import github from '../../../assets/svg/network/github.svg'
 
 export default function Card({name, content, img, url, urlGitHub}){
     return (

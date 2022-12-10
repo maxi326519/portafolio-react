@@ -1,8 +1,8 @@
 import React from 'react'
 
-import './styles/Nav.scss'
-import bars from '../assets/svg/bars-solid.svg'
-import arrow from '../assets/svg/chevron-up-solid.svg'
+import './Nav.scss'
+import bars from '../../assets/svg/bars-solid.svg'
+import arrow from '../../assets/svg/chevron-up-solid.svg'
 
 export default function Nav(){
 

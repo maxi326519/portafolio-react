@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Links from "./Links";
+import Links from "../Links/Links";
 
-import "./styles/Home.scss";
-import img from "../assets/img/Perfil.png";
+import "./Home.scss";
+import img from "../../assets/img/Perfil.png";
 
 export default function Home() {
   const [text, setText] = useState({

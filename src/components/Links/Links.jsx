@@ -1,9 +1,9 @@
 import React from 'react'
 
-import './styles/Links.scss'
+import './Links.scss'
 
-import github from '../assets/svg/network/github.svg'
-import linkedin from '../assets/svg/network/linkedin.svg'
+import github from '../../assets/svg/network/github.svg'
+import linkedin from '../../assets/svg/network/linkedin.svg'
 
 export default function Links(){
     return (

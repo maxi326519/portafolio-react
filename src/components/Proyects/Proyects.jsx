@@ -1,11 +1,12 @@
 import React from "react";
 
-import Card from "./Card-proyect";
+import Card from "./ProyectCard/ProyectCard";
 
-import "./styles/Proyects.scss";
-import weather from "../assets/img/weather-app.png";
-import pomodro from "../assets/img/pomodoro.png";
-import todo from "../assets/img/to-do.png";
+import weather from "../../assets/img/weather-app.png";
+import pomodro from "../../assets/img/pomodoro.png";
+import todo from "../../assets/img/to-do.png";
+
+import "./Proyects.scss";
 
 export default function Proyects() {
   return (
