@@ -13,7 +13,7 @@ export default function Proyects() {
       <h2>Proyects</h2>
       <div className="home-wave">
         <svg
-          className="arrow-dowm"
+          className="arrow-dowm arrowAnimation"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512"
         >

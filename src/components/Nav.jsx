@@ -5,11 +5,14 @@ import bars from '../assets/svg/bars-solid.svg'
 import arrow from '../assets/svg/chevron-up-solid.svg'
 
 export default function Nav(){
+
+    
+
     return (
         <div className='nav-container'>
-            <nav className='width-container'>
+            <nav className='width-container left'>
                 <ul>
-                    <li className='nav-icon'><img src={bars} alt='bars'/></li>
+                    <li className='nav-options'><img src={bars} alt='bars'/></li>
                     <li><a href='#home'>Home</a></li>
                     <li><a href='#proyects-container'>Proyects</a></li>
                     <li><a href='#skills'>Skills</a></li>

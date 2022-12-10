@@ -66,9 +66,9 @@ export default function Home() {
           </div>
         </div>
         <div className="home-img left">
-          <div className="home-img__transform">
+          <div className="home-img__transform borderTransform">
             <div className="home-img__container">
-              <img src={img} alt="perfil" />
+              <img src={img} alt="perfil"/>
             </div>
           </div>
         </div>

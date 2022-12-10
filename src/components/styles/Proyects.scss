@@ -21,22 +21,6 @@
           fill: var.$primary-color;
           filter: drop-shadow(0 0 5px black);
           overflow:visible;
-      
-          path{
-            animation: 0.5s ease-in infinite alternate arrow;
-      
-            @keyframes arrow{
-              0% {
-                transform: translateY(0px) scaleY(1);
-              }
-              80% {
-                transform: translateY(200px) scaleY(1);
-              }
-              100% {
-                transform: translateY(300px) scaleY(0.8);
-              }
-            }
-          }
         }
     
         .wave, .wave2{

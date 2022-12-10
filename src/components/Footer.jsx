@@ -7,7 +7,7 @@ export default function Proyects() {
   return (
     <footer id="footer">
         <Links/>
-        <p>Development by <b>Maxi Garcia</b></p>
+        <p>Development by <b>Me</b></p>
     </footer>
   );
 }

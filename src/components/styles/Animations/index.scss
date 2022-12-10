@@ -3,12 +3,12 @@ $time: 1s;
 
 .top{
     position: relative;
-    animation: $time ease toTop;
+    animation: $time toTop;
 }
 
 .bottom{
     position: relative;
-    animation: $time ease toBottom;
+    animation: $time toBottom;
 }
 
 .right{
@@ -19,4 +19,13 @@ $time: 1s;
 .left{
     position: relative;
     animation: $time toLeft;
+}
+
+.arrowAnimation{
+    position: relative;
+    animation: 0.8s ease-in arrow infinite alternate;
+}
+
+.borderTransform{
+    animation: 20s ease infinite imgBack;
 }
