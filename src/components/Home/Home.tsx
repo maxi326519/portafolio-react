@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Links from "../Links/Links";
 
 import "./Home.scss";
@@ -68,7 +68,7 @@ export default function Home() {
         <div className="home-img left">
           <div className="home-img__transform borderTransform">
             <div className="home-img__container">
-              <img src={img} alt="perfil"/>
+              <img src={img} alt="perfil" />
             </div>
           </div>
         </div>

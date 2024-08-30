@@ -1,16 +1,16 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
 body {
   background-color: #111;
   margin: 0;
-  font-family: 'Montcerrat', sans-serif;
+  font-family: "Montcerrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
