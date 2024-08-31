@@ -14,7 +14,7 @@ export default function Nav() {
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#proyects-container">Proyects</a>
+            <a href="#proyects-container">Proyectos</a>
           </li>
           <li>
             <a href="#skills">Skills</a>

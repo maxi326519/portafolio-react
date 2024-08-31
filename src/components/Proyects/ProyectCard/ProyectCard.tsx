@@ -1,16 +1,16 @@
 import "./ProyectCard.scss";
-import link from "../../../assets/svg/link-solid.svg";
-import github from "../../../assets/svg/network/github.svg";
+import linkSvg from "../../../assets/svg/link-solid.svg";
+import viewSvg from "../../../assets/svg/view.svg";
 
 interface Props {
   name: string;
   content: string;
   img: string;
   url: string;
-  urlGitHub: string;
+  onView: () => void;
 }
 
-export default function Card({ name, content, img, url, urlGitHub }: Props) {
+export default function Card({ name, content, img, url, onView }: Props) {
   return (
     <div className="proyect-card width-container">
       <div className="card__img">
@@ -18,10 +18,10 @@ export default function Card({ name, content, img, url, urlGitHub }: Props) {
       </div>
       <div className="card__links">
         <a rel="noreferrer" target="_blank" href={url}>
-          <img src={link} alt="link"></img>
+          <img src={linkSvg} alt="link"></img>
         </a>
-        <a rel="noreferrer" target="_blank" href={urlGitHub}>
-          <img src={github} alt="link"></img>
+        <a onClick={onView}>
+          <img src={viewSvg} alt="link"></img>
         </a>
       </div>
       <div className="card__text">

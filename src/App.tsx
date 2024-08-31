@@ -4,7 +4,7 @@ import Proyects from "./components/Proyects/Proyects";
 import Skills from "./components/Skills/Skills";
 import Footer from "./components/Footer/Footer";
 
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (

@@ -59,9 +59,9 @@ export default function Home() {
             <p>
               <b>Full Stack Developer</b>
             </p>
-            <a className="home-btn-contact" href="#contact">
+            {/*             <a className="home-btn-contact" href="#contact">
               CONTACT ME{" "}
-            </a>
+            </a> */}
             <Links />
           </div>
         </div>
